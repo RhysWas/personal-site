@@ -19,7 +19,7 @@ export default function About() {
                     <div className="w-96 m-auto flex items-center relative h-96 mb-4 md:mb-0">
                         {/* Image goes here */}
                         <Image 
-                            src='/GradPhotoLongWays.jpg'
+                            src='personal-site/GradPhotoLongWays.jpg'
                             alt='About Photo'
                             fill
                             className='object-contain absolute mx-auto md:mx-0'
