@@ -10,7 +10,7 @@ export default function ProjectCard({ data }){
     // Would have to add a state to control the "flipping" of project cards
     return (
         // Need to specify the height down the line too
-        <div className='container flex-none bg-white border-2 w-4/5 md:w-1/5 md:shrink-0 h-48 p-3 shadow-lg mb-4'>
+        <div className='container flex-none bg-white border-2 w-full md:w-1/5 md:shrink-0 h-48 p-3 shadow-lg mb-4'>
             <div className='flex justify-between'>
                 <div>
                     <p className='text-sm'>{year}</p>
@@ -26,10 +26,10 @@ export default function ProjectCard({ data }){
             {details ? (
                 <div className='flex flex-col h-full pb-2'>
                     <div className='flex-grow'>
-                        <p>{desc}</p>
+                        <p className='test-sm md:text-base'>{desc}</p>
                     </div>
                     <div className='flex justify-between mt-auto mb-2'>
-                        <p className='italic text-lg'>{title}</p>
+                        <p className='italic text-base md:text-lg'>{title}</p>
                         <button className='place-self-end px-2 bg-red-300 rounded-full shadow-sm border-solid border-2 border-red-800' onClick={() => setDetails(false)}>Exit</button>
                     </div>
                 </div>

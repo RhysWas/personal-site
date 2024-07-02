@@ -7,7 +7,7 @@ const ContactButton = () => {
 
     return (
         <button onClick={handleClick} 
-        className= 'mt-2 font-extrabold text-transparent text-3xl p-2 bg-clip-text bg-gradient-to-r from-orange-400 to-cyan-400'>
+        className= 'mt-2 font-extrabold text-transparent text-lg md:text-3xl p-2 bg-clip-text bg-gradient-to-r from-orange-400 to-cyan-400'>
             Contact
         </button>
     )
