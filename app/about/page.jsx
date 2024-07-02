@@ -4,11 +4,14 @@ import Experience from './components/experience';
 import Hobbies from './components/hobbies';
 import Skills from './components/skills';
 
+
 import Degree from '../../public/data/degrees';
 import Jobs from '../../public/data/jobs';
 import { skills, skillsColor } from '../../public/data/skills';
 import FunFacts from '../../public/data/funfacts'
 import FreeTime from '../../public/data/freetime';
+
+import GradPhoto from '../../public/images/gradphoto.jpg';
 
 export default function About() {
     return (
@@ -19,7 +22,7 @@ export default function About() {
                     <div className="w-96 m-auto flex items-center relative h-96 mb-4 md:mb-0">
                         {/* Image goes here */}
                         <Image 
-                            src='personal-site/GradPhotoLongWays.jpg'
+                            src='/personal-site/images/gradphoto.jpg'
                             alt='About Photo'
                             fill
                             className='object-contain absolute mx-auto md:mx-0'

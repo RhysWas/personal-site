@@ -34,15 +34,12 @@ const Projects = () => {
         <div className="container bg-stone-200 mx-auto px-4 py-8">
             <h1 className="text-4xl text-center font-bold">Projects</h1>
             <div>
-                {/* Add a bar to sort projects based on skills here, maybe */}
-            </div>
-            <div>
                 {/* In order for ProjectCard to render, it needs to be called in the return of page */}
                 {Object.keys(getCategories).map(category => (
                     <div key={category} className='my-6'>
                         <div>
                             <h1 className='text-2xl decoration-1 italic underline underline-offset-2 mb-2'>{category}</h1>
-                            <div className='flex flex-wrap justify-start gap-4 gap-x-12 px-8 ml-8'>
+                            <div className='md:flex md:flex-wrap justify-start gap-4 gap-x-12 px-8 ml-8'>
                                 {getCategories[category].map(proj =>(
                                     <ProjectCard data={proj} key={proj.title}/>
                                 ))}

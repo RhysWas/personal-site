@@ -4,7 +4,7 @@ const degree = [{
     degree: 'B.S. Computer Science',
     minor: 'Sustainability',
     link: 'https://umich.edu/',
-    image: '/Umich.png',
+    image: '/personal-site/images/umich.png',
     year: '2024',
 }]
 

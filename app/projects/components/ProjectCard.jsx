@@ -10,7 +10,7 @@ export default function ProjectCard({ data }){
     // Would have to add a state to control the "flipping" of project cards
     return (
         // Need to specify the height down the line too
-        <div className='container flex-none bg-white border-2 w-1/5 md:shrink-0 h-48 p-3 shadow-lg mb-4'>
+        <div className='container flex-none bg-white border-2 w-4/5 md:w-1/5 md:shrink-0 h-48 p-3 shadow-lg mb-4'>
             <div className='flex justify-between'>
                 <div>
                     <p className='text-sm'>{year}</p>
