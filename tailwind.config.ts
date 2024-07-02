@@ -16,5 +16,12 @@ const config: Config = {
     },
   },
   plugins: [],
+  safelist: [
+    'bg-[#22d3ee]',
+    'bg-[#fb923c]',
+    'bg-[#4ade80]',
+    'bg-[#c084fc]',
+    'bg-[#ffffff]',
+  ],
 };
 export default config;
