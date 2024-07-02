@@ -36,7 +36,7 @@ const projects = [
         year: '2024',
         desc: 'Automation script used to format and transfer data from google spreadsheet trackers to the asset tracker web app used.',
         skills: [
-            'javascript', 'project-management', 'documentation',
+            'javascript', 'documentation', 'project-management',
         ],
     },
     {

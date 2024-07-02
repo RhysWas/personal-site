@@ -19,7 +19,7 @@ export default function About() {
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl text-center font-bold -mb-8">About</h1>
                 <div className="items-center md:items-start">
-                    <div className="w-96 m-auto flex items-center relative h-96 mb-4 md:mb-0">
+                    <div className="md:w-96 m-auto flex items-center relative h-96 mb-4 md:mb-0">
                         {/* Image goes here */}
                         <Image 
                             src='/personal-site/images/gradphoto.jpg'
