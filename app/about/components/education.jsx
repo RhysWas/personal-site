@@ -10,12 +10,12 @@ export default function Education({ data }){
             <h2 className="text-2xl text-center font-bold decoration-1 underline italic mb-4">Education</h2>
             <div className='flex justify-start md:px-48'>
                 {data.map((degree) => (
-                    <div className='flex flex-wrap gap-4' key={`${degree.school}-${degree.degree}`}>
+                    <div className='flex justify-start md:flex-wrap gap-2 md:gap-4' key={`${degree.school}-${degree.degree}`}>
                         <Image src={degree.image} alt={degree.degree} width={70} height={30} />
-                        <div>
-                            <h4 className='md:text-xl'>{degree.degree}</h4>
+                        <div className='self-center'>
+                            <h4 className='text-sm font-semibold md:text-xl'>{degree.degree}</h4>
                             <p className='text-xs md:text-sm italic'>{degree.minor} Minor</p>
-                            <p><Link href={degree.link}>{degree.school}</Link>, {degree.year}</p>
+                            <p className='text-xs md:text-base'><Link href={degree.link}>{degree.school}</Link>, {degree.year}</p>
                         </div>
                     </div>
                 ))}

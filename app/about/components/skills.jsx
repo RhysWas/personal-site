@@ -51,30 +51,32 @@ export default function Skills({ skills }){
     return (
         <div>
             <h2 className="text-2xl text-center font-bold decoration-1 underline italic mb-4">Skills</h2>
-            <div className='flex justify-start gap-4 mb-4'>
+            <div className='md:flex flex-wrap md:justify-start mb-4'>
                 <div>
                     <p className='md:text-lg font-semibold'>Filter: </p>
                 </div>
-                <label className='text-xs md:text-base mt-1'>
-                    {/* cyan-400 */}
-                    <input type="checkbox" className='accent-cyan-400' onChange={() => toggleFilter('language')} checked={filters.language}/> Language
-                </label>
-                <label className='text-xs md:text-base mt-1'>
-                    {/* Green-400 */}
-                    <input type="checkbox" className='accent-green-400' onChange={() => toggleFilter('framework')} checked={filters.framework}/> Framework
-                </label>
-                <label className='text-xs md:text-base mt-1'>
-                    {/* Orange-400 */}
-                    <input type="checkbox" className='accent-orange-400' onChange={() => toggleFilter('tool')} checked={filters.tool}/> Tool
-                </label>
-                <label className='text-xs md:text-base mt-1'>
-                    {/* Purple-400 */}
-                    <input type="checkbox" className='accent-purple-400' onChange={() => toggleFilter('database')} checked={filters.database}/> Database
-                </label>
-                <label className="text-xs md:text-base mt-1">
-                    {/* White */}
-                    <input type="checkbox" className='accent-white' onChange={() => toggleFilter('cloud')} checked={filters.cloud}/> Cloud
-                </label>
+                <div className='grid md:flex md:gap-4'>
+                    <label className='text-xs md:text-base px-4 md:px-0 mt-1'>
+                        {/* cyan-400 */}
+                        <input type="checkbox" className='accent-cyan-400' onChange={() => toggleFilter('language')} checked={filters.language}/> Language
+                    </label>
+                    <label className='text-xs md:text-base px-4 md:px-0  mt-1'>
+                        {/* Green-400 */}
+                        <input type="checkbox" className='accent-green-400' onChange={() => toggleFilter('framework')} checked={filters.framework}/> Framework
+                    </label>
+                    <label className='text-xs md:text-base px-4 md:px-0  mt-1'>
+                        {/* Orange-400 */}
+                        <input type="checkbox" className='accent-orange-400' onChange={() => toggleFilter('tool')} checked={filters.tool}/> Tool
+                    </label>
+                    <label className='text-xs md:text-base px-4 md:px-0  mt-1'>
+                        {/* Purple-400 */}
+                        <input type="checkbox" className='accent-purple-400' onChange={() => toggleFilter('database')} checked={filters.database}/> Database
+                    </label>
+                    <label className="text-xs md:text-base px-4 md:px-0  mt-1">
+                        {/* White */}
+                        <input type="checkbox" className='accent-white' onChange={() => toggleFilter('cloud')} checked={filters.cloud}/> Cloud
+                    </label>
+                </div>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-4 justify-evenly gap-6'>
                 {filteredSkills.map((skill) => (

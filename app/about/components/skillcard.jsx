@@ -8,7 +8,7 @@ export default function SkillCard({ data }){
     const colorMatch = skillsColor.find(item => item.type === type);
 
     return (
-        <div className={`bg-[${colorMatch.color}] border-black border-1 rounded-full p-2 `}>
+        <div className={`bg-[${colorMatch.color}] border-black self-center border-1 rounded-full p-2 `}>
             <p className='text-sm font-semibold md:text-base md:font-bold text-center'>{name}</p>
         </div>
     )

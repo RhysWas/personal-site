@@ -11,7 +11,7 @@ const Hobbies = ({ freetimes, funfacts }) => {
             <div className='md:flex md:justify-around mt-6'>
                 <div className='mb-4'>
                     <h3 className='text-center font-bold'>How I spend my freetime</h3> 
-                    <ul className='list-decimal'> 
+                    <ul className='list-decimal list-inside md:list-outside'> 
                         {freetimes.map((freetime) => (
                             <FreeTime freetime={freetime} key={freetime}/>
                         ))
@@ -20,7 +20,7 @@ const Hobbies = ({ freetimes, funfacts }) => {
                 </div>
                 <div>
                     <h3 className='text-center font-bold'>A Few Fun Facts</h3>
-                    <ul className='list-decimal'>
+                    <ul className='list-decimal list-inside md:list-outside'>
                         {funfacts.map((funfact) => (
                             <FunFacts funfact={funfact} key={funfact}/>
                         ))}

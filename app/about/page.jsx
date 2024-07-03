@@ -15,11 +15,11 @@ import GradPhoto from '../../public/images/gradphoto.jpg';
 
 export default function About() {
     return (
-        <div className="bg-stone-200 min-h-screen px-8">
+        <div className="bg-stone-200 min-h-screen px-2 md:px-8">
             <div className="container mx-auto px-4 py-8">
                 <h1 className="text-4xl text-center font-bold -mb-4 md:-mb-8">About</h1>
                 <div className="items-center md:items-start">
-                    <div className="w-64 md:w-96 m-auto flex items-center relative h-64 md:h-96">
+                    <div className="w-56 md:w-96 m-auto flex items-center relative h-56 md:h-96">
                         {/* Image goes here */}
                         <Image 
                             src='/personal-site/images/gradphoto.jpg'
