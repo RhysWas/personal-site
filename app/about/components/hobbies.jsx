@@ -8,8 +8,8 @@ const Hobbies = ({ freetimes, funfacts }) => {
         <div>
             <h2 className="text-2xl text-center font-bold decoration-1 underline italic mb-4">Hobbies</h2>
             <p className='text-center'>Congrats on making it this far! Since you&#39;re here, here&#39;s a little more about me:</p>
-            <div className='flex justify-around mt-6'>
-                <div>
+            <div className='md:flex md:justify-around mt-6'>
+                <div className='mb-4'>
                     <h3 className='text-center font-bold'>How I spend my freetime</h3> 
                     <ul className='list-decimal'> 
                         {freetimes.map((freetime) => (

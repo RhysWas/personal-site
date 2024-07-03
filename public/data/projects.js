@@ -36,7 +36,7 @@ const projects = [
         year: '2024',
         desc: 'Automation script used to format and transfer data from google spreadsheet trackers to the asset tracker web app used.',
         skills: [
-            'javascript', 'documentation', 'project-management',
+            'javascript', 'documentation', 'management', 
         ],
     },
     {
@@ -145,7 +145,7 @@ const projects = [
         year: '2023',
         desc: 'Java program utilizing REST API calls to gather data from asset tracker format the data then update the tracker, spits out a report of assets updated.',
         skills: [
-            'Java', 'REST-API', 'documentation',
+            'Java', 'REST-API', 'documentation', 'maven'
         ],
     },
     {

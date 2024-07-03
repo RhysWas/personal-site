@@ -8,7 +8,7 @@ export default function Home() {
   const description = 'Full Stack Developer | Process Automator | Software Engineer';
   
   return (
-    <div className="gradient-radial bg-stone-200 min-h-screen flex items-center justify-center">
+    <div className="gradient-radial bg-stone-200 min-h-screen flex items-center justify-center p-2 md:p-0">
       <div className="w-full md:w-2/3 p-8 text-center  border-double border-orange-400 border-8">
         <div className="text-4xl md:text-9xl text-center md:text-left font-extrabold mb-4">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-cyan-400">

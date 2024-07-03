@@ -9,7 +9,7 @@ export default function SkillCard({ data }){
 
     return (
         <div className={`bg-[${colorMatch.color}] border-black border-1 rounded-full p-2 `}>
-            <p className='font-bold text-center'>{name}</p>
+            <p className='text-sm font-semibold md:text-base md:font-bold text-center'>{name}</p>
         </div>
     )
 };

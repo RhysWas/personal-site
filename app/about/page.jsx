@@ -17,9 +17,9 @@ export default function About() {
     return (
         <div className="bg-stone-200 min-h-screen px-8">
             <div className="container mx-auto px-4 py-8">
-                <h1 className="text-4xl text-center font-bold -mb-8">About</h1>
+                <h1 className="text-4xl text-center font-bold -mb-4 md:-mb-8">About</h1>
                 <div className="items-center md:items-start">
-                    <div className="md:w-96 m-auto flex items-center relative h-96 mb-4 md:mb-0">
+                    <div className="w-64 md:w-96 m-auto flex items-center relative h-64 md:h-96">
                         {/* Image goes here */}
                         <Image 
                             src='/personal-site/images/gradphoto.jpg'
@@ -29,7 +29,7 @@ export default function About() {
                             />
                     </div>
                     <div className="m-auto place-self-center md:pl-8">
-                        <p className="text-gray-800 text-lg text-center mb-4">
+                        <p className="text-gray-800 md:text-lg text-center mb-4">
                             Hi, I am Rhys Wastell, a passionate programmer, developer based in Ann Arbor. I recently graduated from the University of Michigan, and am looking for full time employment as a full stack developer.
                         </p>
                     </div>

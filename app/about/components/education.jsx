@@ -8,13 +8,13 @@ export default function Education({ data }){
     return (
         <div className='container'>
             <h2 className="text-2xl text-center font-bold decoration-1 underline italic mb-4">Education</h2>
-            <div className='flex px-48'>
+            <div className='flex justify-start md:px-48'>
                 {data.map((degree) => (
                     <div className='flex flex-wrap gap-4' key={`${degree.school}-${degree.degree}`}>
                         <Image src={degree.image} alt={degree.degree} width={70} height={30} />
                         <div>
-                            <h4 className='text-xl'>{degree.degree}</h4>
-                            <p className='text-sm italic'>{degree.minor} Minor</p>
+                            <h4 className='md:text-xl'>{degree.degree}</h4>
+                            <p className='text-xs md:text-sm italic'>{degree.minor} Minor</p>
                             <p><Link href={degree.link}>{degree.school}</Link>, {degree.year}</p>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ export default function Job({ data }) {
     return (
         <article className='my-8'>
             <header>
-                <h4 className='text-lg text-bold flex flex-wrap'>
+                <h4 className='md:text-lg  font-bold flex flex-wrap'>
                     <Link href={data.link}>{data.company} </Link>
                     <p className='italic font-light'>
                     - {data.position}
