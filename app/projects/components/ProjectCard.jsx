@@ -7,10 +7,8 @@ export default function ProjectCard({ data }){
     const {title, category, year, desc, link, skills} = data;
     const [details, setDetails] = useState(false);
 
-    // Would have to add a state to control the "flipping" of project cards
     return (
-        // Need to specify the height down the line too
-        <div className='container flex-none bg-white md:border-double border-orange-400 border-2 md:border-4 w-full md:w-1/5 md:shrink-0 h-48 p-3 shadow-lg mb-4'>
+        <div className='container flex-none bg-white md:border-double border-orange-400 border-2 md:border-4 w-full sm:w-64 overflow-hidden shrink-0 h-48 p-3 shadow-lg mb-4'>
             <div className='flex justify-between'>
                 <div>
                     <p className='text-sm'>{year}</p>
@@ -24,7 +22,7 @@ export default function ProjectCard({ data }){
                 ) : null }
             </div>
             {details ? (
-                <div className='flex flex-col h-full pb-2'>
+                <div className='flex-1 overflow-auto flex-col h-full pb-2'>
                     <div className='flex-grow'>
                         <p className='test-sm md:text-base'>{desc}</p>
                     </div>
@@ -36,9 +34,9 @@ export default function ProjectCard({ data }){
             ) : (
                 <div className='text-center py-8 h-full'>
                     <p className='text-xl'>{title}</p>
-                    <div className='flex justify-center whitespace-normal overflow-hidden pb-3'>
+                    <div className='flex justify-center whitespace-normal text-ellipse pb-3'>
                         {skills.map(skill => 
-                            <p key={skill} className='text-xs px-1'>{skill}</p>
+                            <p key={skill} className='text-xs whitespace-nowrap px-1'>{skill}</p>
                         )}
                     </div>
                     <button className='mt-auto mb-3 px-2 bg-cyan-200 border-solid border-orange-400 border-2 shadow-sm rounded-full text-sm' onClick={() => setDetails(true)}>

@@ -30,7 +30,7 @@ export default function About() {
                     </div>
                     <div className="m-auto place-self-center md:pl-8">
                         <p className="text-gray-800 md:text-lg text-center mb-4">
-                            Hi, I am Rhys Wastell, a passionate programmer, developer based in Ann Arbor. I recently graduated from the University of Michigan, and am looking for full time employment as a full stack developer.
+                            Hi, I am Rhys Wastell, a passionate programmer, developer based in Ann Arbor. I recently graduated from the University of Michigan, and am currently working as a Junior Fullstack developer at Gordon Food Service.
                         </p>
                     </div>
                 </div>

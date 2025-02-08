@@ -31,15 +31,15 @@ const Projects = () => {
 
 
     return (
-        <div className="container bg-stone-200 mx-auto px-4 py-8">
+        <div className="container bg-stone-200 mx-auto py-8">
             <h1 className="text-4xl text-center font-bold">Projects</h1>
             <div>
                 {/* In order for ProjectCard to render, it needs to be called in the return of page */}
                 {Object.keys(getCategories).map(category => (
                     <div key={category} className='my-6'>
                         <div>
-                            <h1 className='text-2xl decoration-1 italic underline underline-offset-2 mb-2'>{category}</h1>
-                            <div className='md:flex md:flex-wrap justify-start gap-4 gap-x-12 px-8 ml-8'>
+                            <h1 className='text-2xl ml-4 decoration-1 italic underline underline-offset-2 mb-2'>{category}</h1>
+                            <div className='md:flex md:flex-wrap justify-center sm:justify-start mx-4 sm:gap-4 sm:gap-x-12 sm:ml-4'>
                                 {getCategories[category].map(proj =>(
                                     <ProjectCard data={proj} key={proj.title}/>
                                 ))}

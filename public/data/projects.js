@@ -12,6 +12,16 @@
 */
 const projects = [
     {
+        title: 'Portfolio Website',
+        category: 'Personal',
+        year: '2024',
+        desc: 'This website! Hosted on GitHub GitPages and built using NextJS and TailwindCSS frameworks.',
+        link: 'https://github.com/RhysWas/personal-site',
+        skills: [
+            'ReactJS', 'NextJS', 'TailwindCSS',
+        ]
+    },
+    {
         title: 'File Sorter',
         category: 'Personal',
         year: '2024',
@@ -99,7 +109,7 @@ const projects = [
         year: '2023',
         desc: 'Used Autopsy and Ghidra to investigate a suspect machine, then followed clues to trace activity through suspect websites.',
         skills: [
-            'XSS', 'SQL-injection', 'buffer-overflow', 'autopsy', 'length-extension',
+            'XSS', 'SQL-injection', 'buffer-overflow', 'autopsy',
         ],
     },
     {
