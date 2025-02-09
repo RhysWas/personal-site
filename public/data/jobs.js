@@ -19,7 +19,7 @@ const jobs = [
             'Worked in a team of 12 to build and maintain the Gordon Food Service ordering website, where customers would place online orders',
             'Used Angular Framework with NgRx for frontend, Java backend, and Google Cloud Platform for hosting to the website and tracking errors from backend services',
             'Participated in code reviews in order to ensure high level of quality in code before it became part of production',
-            'Added features like language dropdowns, chat bot activation button, and helped to migrate to new ERP services which resulted in better app performance and in case of chat bot button 3,000 unit sales',
+            'Added features like language dropdowns, chat bot activation button, and helped to migrate to new ERP services which resulted in better app performance and in case of the chat bot button 3,000 unit sales',
         ]
     },
     {

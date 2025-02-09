@@ -116,6 +116,22 @@ const skills = [
         name: 'Microsoft Excel',
         type: 'tool',
     },
+    {
+        name: 'Angular',
+        type: 'framework',
+    },
+    {
+        name: 'SpringBoot',
+        type: 'framework',
+    },
+    {
+        name: 'Google Cloud Platform',
+        type: 'cloud',
+    },
+    {
+        name: 'LogRocket',
+        type: 'tool',
+    },
 ];
 
 // Make a colors list for color coding on type

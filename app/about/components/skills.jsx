@@ -53,7 +53,7 @@ export default function Skills({ skills }){
             <h2 className="text-2xl text-center font-bold decoration-1 underline italic mb-4">Skills</h2>
             <div className='md:flex flex-wrap md:justify-start mb-4'>
                 <div>
-                    <p className='md:text-lg font-semibold'>Filter: </p>
+                    <p className='md:text-lg font-semibold px-4'>Filter: </p>
                 </div>
                 <div className='grid md:flex md:gap-4'>
                     <label className='text-xs md:text-base px-4 md:px-0 mt-1'>
