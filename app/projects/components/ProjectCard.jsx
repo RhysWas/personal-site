@@ -34,7 +34,7 @@ export default function ProjectCard({ data }){
             ) : (
                 <div className='text-center py-8 h-full'>
                     <p className='text-xl'>{title}</p>
-                    <div className='flex justify-center whitespace-normal text-ellipse pb-3'>
+                    <div className='flex justify-center z-10 whitespace-normal hover:flex hover:overflow-visible line-clamp-1 hover:line-clamp-none hover:font-bold pb-3'>
                         {skills.map(skill => 
                             <p key={skill} className='text-xs whitespace-nowrap px-1'>{skill}</p>
                         )}

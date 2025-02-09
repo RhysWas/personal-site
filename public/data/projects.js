@@ -73,7 +73,7 @@ const projects = [
         year: '2022',
         desc: 'Created a map reduce program to use different threads to mimic a distributed system in order to count words within a text file.',
         skills: [
-            'python', 'distributed-computing', 'mr-pipeline',
+            'python', 'distributed-computing',
         ],
     },
     {
@@ -109,7 +109,7 @@ const projects = [
         year: '2023',
         desc: 'Used Autopsy and Ghidra to investigate a suspect machine, then followed clues to trace activity through suspect websites.',
         skills: [
-            'XSS', 'SQL-injection', 'buffer-overflow', 'autopsy',
+            'XSS', 'SQL-injection', 'buffer-overflow',
         ],
     },
     {
