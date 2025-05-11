@@ -1,12 +1,13 @@
 // import Image from 'next/image';
-import './globals.css';
-import ContactButton from './components/contactbutton';
+import "./globals.css";
+import ContactButton from "./components/contactbutton";
 
 export default function Home() {
-  const firstName = 'Rhys';
-  const lastName = 'Wastell';
-  const description = 'Full Stack Developer | Process Automator | Software Engineer';
-  
+  const firstName = "Rhys";
+  const lastName = "Wastell";
+  const description =
+    "Full Stack Developer | Process Automator | Software Engineer";
+
   return (
     <div className="gradient-radial bg-stone-200 min-h-screen flex items-center justify-center p-2 md:p-0">
       <div className="w-full md:w-2/3 p-8 text-center  border-double border-orange-400 border-8">
@@ -21,7 +22,10 @@ export default function Home() {
           </span>
         </div>
         <p className="text-gray-700 text-sm md:text-2xl mb-6">{description}</p>
-        <p className="text-gray-600 text-xs md:text-base">Welcome to my portfolio website. I am passionate about creating innovative web solutions.</p>
+        <p className="text-gray-600 text-xs md:text-base">
+          Welcome to my portfolio website. I am passionate about creating
+          innovative web solutions.
+        </p>
         {/* TODO: Add in a contact button here */}
         <ContactButton />
       </div>

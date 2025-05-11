@@ -10,66 +10,67 @@
 */
 
 const jobs = [
-    {
-        company: 'Gordon Food Service',
-        position: 'Junior Fullstack Developer',
-        link: 'https://gfs.com/en-us/',
-        start: '2024-09-02',
-        summary: [
-            'Worked in a team of 12 to build and maintain the Gordon Food Service ordering website, where customers would place online orders',
-            'Used Angular Framework with NgRx for frontend, Java backend, and Google Cloud Platform for hosting to the website and tracking errors from backend services',
-            'Participated in code reviews in order to ensure high level of quality in code before it became part of production',
-            'Added features like language dropdowns, chat bot activation button, and helped to migrate to new ERP services which resulted in better app performance and in case of the chat bot button 3,000 unit sales',
-        ]
-    },
-    {
-        company: 'LSA Technology Services',
-        position: 'Automation Specialist',
-        link: 'https://lsa.umich.edu/technology-services',
-        start: '2023-09-18',
-        end: '2024-04-26',
-        summary: [
-            'Managed and created a Google Scripts Program that ingested and formatted computer data from two separate data sources to automate daily data entry tasks into a weekly cycle which resulted in updates to 3883 assets in 3 weeks of running.',
-            'Automated one years worth of work, resulting in a standardized data set and reduction of daily tasks for 45 associates throughout the organization.', 
-            'Documented all code relating to the project and presented the project proposal to company management for approval.',
-        ],
-    },
-    {
-        company: 'Pratt & Whitney',
-        position: 'Digital Technology Intern',
-        link: 'https://www.prattwhitney.com/',
-        start: '2023-06-05',
-        end: '2023-08-18',
-        summary: [
-            'Developed frontend side of an internal web app taking in data for a larger machine learning pipeline using Material UI, and ReactJS.',
-            'Added features to improve workflow of the web app through new naming conventions, additionally created a new feature to take in bulk imports through an excel upload.',
-            'Refactored and documented existing solution to improve maintainability over time and efficiency.',
-        ],
-    },
-    {
-        company: 'LSA Technology Services',
-        position: 'Data Entry Specialist',
-        link: 'https://lsa.umich.edu/technology-services',
-        start: '2022-03-07',
-        end: '2023-04-28',
-        summary: [
-            'Created a Java program utilizing a web based API to automate and speed up the clean up process of a database of 13,000 computing assets by 50%.',
-            'Wrote full documentation for the Java formatting program including a detailed ReadME and separate internally published instructions for use.',
-            'Developed a secondary script using hash maps in Java to find duplicate assets further cleaning the database by 10%.',
-        ],
-    },
-    {
-        company: 'Escanaba Municipal Marina',
-        position: 'Dock Attendant',
-        link: 'https://www.escanaba.org/marina',
-        start: '2020-06-08',
-        end: '2021-08-20',
-        summary: [
-            'Managed the marina over the weekends when the Harbor Master was off, to allow for normal marina functions without the Habor Master.',
-            'Worked in a customer facing role to assign slips, refuel and pumpout boats, and make improvements to the docks to ensure a high quality experience for all customers.',
-            'Grew the marina instagram, EscanabaMarina, from 50 followers to 280 to help reach new customers.',
-        ],
-    },
+  {
+    company: "Gordon Food Service",
+    position: "Junior Fullstack Developer",
+    link: "https://gfs.com/en-us/",
+    start: "2024-09-02",
+    summary: [
+      "Maintained and contributed to 46 microservices which utilized a SpringBoot backend, Angular Typescript frontend, and Google Cloud Computing",
+      "Created a knowledge sharing document covering common processes and company best practices improving the time it took the company to ramp up new hires on the team by 20%",
+      "Implemented features like no search results page prompting customers to utilize an AI chatbot resulting in the additional sale of roughly 3,000 products",
+      "Migrated web app to utilize SAP over legacy ERP solutions resulting in the web app using one data source reducing system complexity",
+      "Led onboarding for new developers by providing technical walkthroughs and process documentation, enabling them to contribute code within their first week",
+    ],
+  },
+  {
+    company: "LSA Technology Services",
+    position: "Automation Specialist",
+    link: "https://lsa.umich.edu/technology-services",
+    start: "2023-09-18",
+    end: "2024-04-26",
+    summary: [
+      "Managed and created a Google Scripts Program that ingested and formatted computer data from two separate data sources to automate daily data entry tasks into a weekly cycle which resulted in updates to 3883 assets in 3 weeks of running.",
+      "Automated one years worth of work, resulting in a standardized data set and reduction of daily tasks for 45 associates throughout the organization.",
+      "Documented all code relating to the project and presented the project proposal to company management for approval.",
+    ],
+  },
+  {
+    company: "Pratt & Whitney",
+    position: "Digital Technology Intern",
+    link: "https://www.prattwhitney.com/",
+    start: "2023-06-05",
+    end: "2023-08-18",
+    summary: [
+      "Developed frontend side of an internal web app taking in data for a larger machine learning pipeline using Material UI, and ReactJS.",
+      "Added features to improve workflow of the web app through new naming conventions, additionally created a new feature to take in bulk imports through an excel upload.",
+      "Refactored and documented existing solution to improve maintainability over time and efficiency.",
+    ],
+  },
+  {
+    company: "LSA Technology Services",
+    position: "Data Entry Specialist",
+    link: "https://lsa.umich.edu/technology-services",
+    start: "2022-03-07",
+    end: "2023-04-28",
+    summary: [
+      "Created a Java program utilizing a web based API to automate and speed up the clean up process of a database of 13,000 computing assets by 50%.",
+      "Wrote full documentation for the Java formatting program including a detailed ReadME and separate internally published instructions for use.",
+      "Developed a secondary script using hash maps in Java to find duplicate assets further cleaning the database by 10%.",
+    ],
+  },
+  {
+    company: "Escanaba Municipal Marina",
+    position: "Dock Attendant",
+    link: "https://www.escanaba.org/marina",
+    start: "2020-06-08",
+    end: "2021-08-20",
+    summary: [
+      "Managed the marina over the weekends when the Harbor Master was off, to allow for normal marina functions without the Habor Master.",
+      "Worked in a customer facing role to assign slips, refuel and pumpout boats, and make improvements to the docks to ensure a high quality experience for all customers.",
+      "Grew the marina instagram, EscanabaMarina, from 50 followers to 280 to help reach new customers.",
+    ],
+  },
 ];
 
 export default jobs;
